@@ -10,6 +10,7 @@ categories = ["embedded", "hardware-support", "os", "os::unix-apis"]
 keywords = ["linux", "gpio", "gpiochip", "embedded"]
 license = "MIT OR Apache-2.0"
 edition = "2018"
+rust-version = "1.82"
 
 [features]
 default = []
