@@ -356,6 +356,9 @@ bitflags! {
         const ACTIVE_LOW = (1 << 2);
         const OPEN_DRAIN = (1 << 3);
         const OPEN_SOURCE = (1 << 4);
+        const BIAS_PULL_UP = (1 << 5);
+        const BIAS_PULL_DOWN = (1 << 6);
+        const BIAS_DISABLE = (1 << 7);
     }
 }
 
@@ -385,6 +388,9 @@ bitflags! {
         const ACTIVE_LOW = (1 << 2);
         const OPEN_DRAIN = (1 << 3);
         const OPEN_SOURCE = (1 << 4);
+        const BIAS_PULL_UP = (1 << 5);
+        const BIAS_PULL_DOWN = (1 << 6);
+        const BIAS_DISABLE = (1 << 7);
     }
 }
 
